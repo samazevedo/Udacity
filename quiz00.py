@@ -40,8 +40,8 @@ def quiz(phrase, answer):
     """This function shows the phrase according to the user's choice
     compare user answer with the correct answer
     than show if the answer is correct or not
-    :param phrase: 
-    :param answer: 
+    :param phrase: display phrase according to users level choice
+    :param answer: compares user's answer  with correct answer
     :return: 
     """
     print phrase
@@ -61,6 +61,14 @@ def quiz(phrase, answer):
                 level(raw_input("Please choose a level |Easy|Medium|Hard|"))
 
 def nextblank(phrase, answer, index):
+    """
+    This function is created  to replace a blank with the equivalent 
+    and correct answer
+    :param phrase: gets the current phrase
+    :param answer: gets the user answer if correct and replace  
+    :param index: 
+    :return: phrase with a blank filled by users answer if correct
+    """
     print "Correct"
     phrase = phrase.replace(blanks[index],answer[index])
     print phrase
@@ -77,7 +85,9 @@ def complete():
     """
     print "CONGRATULATIONS!!!   YOU WIN!!!"
 
-#GREETINGS
+
+# GREETINGS
+
 print "WELCOME TO MY QUIZ"
 
 level = raw_input("Select a level to play |Easy|Medium|Hard|Exit|").lower()
