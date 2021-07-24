@@ -1,0 +1,26 @@
+
+
+h1 {
+    color: #fff;
+}
+h2 {
+    text-decoration: underline;
+    color: #fff;
+}
+ul {
+    list-style-type:circle;
+    color: lightgreen;
+}
+
+#to-do-list {
+    background-color: #050A30;
+    width: 300px;
+    padding: 10px;
+}
+.finished {
+    color: red;
+    text-decoration: line-through;
+}
+.unfished {
+    color: green;
+}

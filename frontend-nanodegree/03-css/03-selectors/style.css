@@ -1,0 +1,17 @@
+/* missing id */
+#menu {
+    text-align: center;
+}
+/* missing class */
+.item {
+  color: red;
+}
+/* missing class */
+.picture {
+  border-radius: 5px;
+  width: 50%;
+}
+/* missing class */
+.description {
+  font-style: italic;
+}
