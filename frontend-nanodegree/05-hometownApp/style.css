@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin:0;
+    padding:0;
+}
+body {
+    font-size: 12px;
+    color: #424242;
+}
+img, embed, object, video {
+    max-width: 100%;
+    }
+
+nav, a, button {min-width: 48px;
+        min-height: 48px;
+}
+.header {
+    box-shadow: 0px 5px 3px  #eee;
+    display:flex;
+}
+.header_logo {
+    width: 100%;
+    max-width: 50px;
+    padding: 10px;
+}
+.header_inner h1 {
+    margin-left: 10px;
+    font-size: 2.0rem;
+}
+.header_inner {
+    display:flex;
+    width:100%;
+}
+.nav {
+    display:flex;
+    justify-content: center;
+}
+.nav_list{
+    wdith: 100%;
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.nav_item a {
+    text-decoration: none;
+    color: #424242;
+}
+.nav_item a:hover {
+    text-decoration: underline;
+}
+.nav_item {
+    margin-right: 50px;
+    font-family: sans-serif;
+    
+}
+.content {
+    display:flex;
+    flex-wrap: wrap;
+    margin:0px;
+    justify-content: center;
+}
+.description {
+    width: 100%;
+    max-width:500px;
+    background-color:rgba(255, 99, 99, 0.21);
+    color:#fff;
+    align-self:flex-end;
+}
+.hero {
+    display:flex;
+    background-image: url("./253285.jpg");
+    background-size: cover;
+    width:100%;
+    max-width:500px;
+    height:300px;
+    align-content: flex-end;
+
+}
+.top_news {
+    display:flex;
+    flex-wrap: wrap;
+    border: #eee solid 1px;
+    box-shadow: 2px 2px 2px 1px #eee; 
+    width:100%;
+    max-width: 200px;
+    height: 300px;
+    
+}
+.top_news ul {
+    list-style: none;
+    width:100%;
+    padding: 10px;
+}
+.news_title {
+    
+    margin: 0;
+    padding:5px;
+    width: 100%;
+    font-weight: 300;
+    border-bottom: #eee 1px solid;
+}
+.top_news a{
+    text-decoration: none;
+    color: #424242;
+    cursor: pointer;
+    
+}
+.news__more {
+    margin-left: 50px;
+    font-size: 1rem;
+    border-botton: 1px solid #eee;
+    
+}
+.top_news li {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    display: list-item;
+    line-height: 20px;
+}
+.top_news a:hover {
+    text-decoration: underline;
+
+}
+
+footer {display:flex;
+    width: 100%;
+    background-color: #eee;
+    height:100%;
+    justify-content: center;
+    margin-top: 10px;
+}
+footer ul{
+    display:flex;
+    list-style: none;
+}
+footer li {
+    margin-left: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+footer a:hover {
+    text-decoration: underline;
+}
