@@ -64,7 +64,6 @@ nav, a, button {min-width: 48px;
 }
 .description {
     width: 100%;
-    max-width:500px;
     background-color:rgba(255, 99, 99, 0.21);
     color:#fff;
     align-self:flex-end;
@@ -74,7 +73,6 @@ nav, a, button {min-width: 48px;
     background-image: url("./253285.jpg");
     background-size: cover;
     width:100%;
-    max-width:500px;
     height:300px;
     align-content: flex-end;
 
@@ -85,7 +83,6 @@ nav, a, button {min-width: 48px;
     border: #eee solid 1px;
     box-shadow: 2px 2px 2px 1px #eee; 
     width:100%;
-    max-width: 200px;
     height: 300px;
     
 }
@@ -125,6 +122,14 @@ nav, a, button {min-width: 48px;
 
 }
 
+.news {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:30px;
+    
+}
+
 footer {display:flex;
     width: 100%;
     background-color: #eee;
@@ -148,4 +153,23 @@ footer a{
 }
 footer a:hover {
     text-decoration: underline;
+}
+
+.snippet {
+    display:flex;
+    flex-wrap: wrap;
+}
+.snippet h3 {
+    margin-left: 5px;
+}
+.snippet a {
+    text-decoration: none;
+    color: gray;
+}
+.snippet a:hover{
+    text-decoration: underline;
+}
+.snippet__thumbnail {
+    width: 30%;
+    padding-left: 5px;
 }

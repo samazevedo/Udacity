@@ -1,0 +1,45 @@
+.container {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.box { 
+    height: 100px;
+    text-align: center;
+    width: 100%;
+}
+.lime {
+    background-color: lime;
+    width:50%;
+    order: 6;
+}
+.dark_blue {
+    background-color: darkblue;
+    width:25%;
+    order: 5;
+}
+.light_blue {
+    background-color: lightblue;
+    width:25%;
+    order: 7;
+}
+.red {
+    background-color: red;
+    width:50%;
+    order: 2;
+}
+.green {
+    background-color: green;
+    width:100%;
+    order: 4;
+}
+.orange {
+    background-color: orange;
+    width:50%;
+    order: 3;
+}
+
+header {
+    width: 100%;
+    order:1;
+}

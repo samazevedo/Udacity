@@ -1,0 +1,46 @@
+body {
+
+}
+
+.aa {
+    width: 10px;
+    height: 10px;
+    margin-bottom:50px;
+    background-color: orange;
+}
+.bb {
+    width: 10px;
+    height: 10px;
+    margin-bottom:50px;
+    background-color: violet;
+}
+.cc {
+    width: 10px;
+    height: 10px;
+    margin-bottom:50px;
+    background-color: red;
+}
+.dd {
+    width: 10px;
+    height: 10px;
+    margin-bottom:50px;
+    background-color: green;
+}
+
+@media screen and (min-width: 400px){
+    .aa {
+            width: 400px;
+    },
+}
+@media screen and (min-width: 600px){
+    .bb {  width: 600px;
+    },
+}
+@media screen and (min-width: 800px){
+    .cc {  width: 800px;
+    },
+}
+@media screen and (min-width: 1000px){
+    .dd {  width: 1000px;
+    },
+}
